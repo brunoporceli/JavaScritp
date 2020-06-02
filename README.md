@@ -1,2 +1,2 @@
 # JavaScritp
-Operações matemático com JavaScritp
+Operações matemática com JavaScritp
