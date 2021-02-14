@@ -1,2 +1,5 @@
-# JavaScritp
-Operações matemática com JavaScritp
+// JavaScritp
+
+Estudos de javaScritp 
+
+testando e aprendendo comando com codecademy
