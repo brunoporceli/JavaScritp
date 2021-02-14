@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-// Sum  const let 
-=======
-=======
->>>>>>> develop
 #Bracket Notation
 
 let spaceship = {
@@ -49,9 +43,4 @@ let alienShip = {
 };
 
 alienShip.retreat();
-<<<<<<< HEAD
 alienShip.takeOff();
->>>>>>> develop
-=======
-alienShip.takeOff();
->>>>>>> develop
