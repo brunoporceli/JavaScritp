@@ -157,5 +157,3 @@ console.log(robotEntries);
 
 const newRobot = Object.assign({laserBlaster: true, voiceRecognition: true}, robot);
 console.log(newRobot);
-
-//
