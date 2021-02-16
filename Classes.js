@@ -24,4 +24,14 @@ class Dog {
   console.log(halley.name);
   console.log(halley.behavior);
 
-//
+//Constructor
+
+class Surgeon {
+    constructor(name, department){
+        this.name = name;
+        this.department = department;
+    }
+}
+
+//Instance
+
