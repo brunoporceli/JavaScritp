@@ -52,4 +52,4 @@ class Surgeon {
   console.log(surgeonJackson.name);
   console.log(surgeonJackson.department);
 
-  //
+  //Methods
