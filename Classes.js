@@ -81,7 +81,7 @@ class Surgeon {
   const surgeonRomero = new Surgeon('Francisco Romero', 'Cardiovascular');
   const surgeonJackson = new Surgeon('Ruth Jackson', 'Orthopedics');
 
-  //Inheritance I
+  //Method Calls
 
   class Surgeon {
     constructor(name, department) {
@@ -111,5 +111,49 @@ class Surgeon {
   const surgeonRomero = new Surgeon('Francisco Romero', 'Cardiovascular');
   const surgeonJackson = new Surgeon('Ruth Jackson', 'Orthopedics');
   console.log(surgeonRomero.name);
+
+  //Inheritance I
+
+  class Cat {
+    constructor(name, usesLitter) {
+      this._name = name;
+      this._usesLitter = usesLitter;
+      this._behavior = 0;
+    }
+   
+    get name() {
+      return this._name;
+    }
+   
+    get usesLitter() {
+      return this._usesLitter;
+    }
+   
+    get behavior() {
+      return this._behavior;
+    }  
+   
+    incrementBehavior() {
+      this._behavior++;
+    }
+  }
+
+  //Inheritance II
+
+  class HospitalEmployee {
+    constructor(name){
+      this._name = name;
+      this._remainingVacationDays = 20;
+    }
+    get name(){
+      return this._name;
+    }
+    get remainingVacationDays(){
+      return this._remainingVacationDays;
+    }
+    takeVacationDays(daysOff){
+      this._remainingVacationDays -= daysOff;
+    }
+  }
 
   //
