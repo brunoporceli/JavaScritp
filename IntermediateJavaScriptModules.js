@@ -31,3 +31,17 @@ const Airplane = require('./2-airplane.js');
 console.log(Airplane.displayAirplane());
 
 //export default
+
+let Airplane = {};
+
+  Airplane.availableAirplanes = [
+    {
+      name: 'AeroJet',
+      fuelCapacity: 800
+    },
+    {
+      name: 'SkyJet',
+      fuelCapacity: 500
+    }
+  ];
+export default Airplane;
