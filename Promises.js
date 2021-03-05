@@ -1,4 +1,5 @@
 //JAVASCRIPT PROMISES
+////node <name_file>.js
 
 //Constructing a Promise Object
 
@@ -35,8 +36,6 @@ const usingSTO = () => {
 setTimeout(usingSTO, 100);
 
 console.log("This is the last line of code in app.js.");
-
-////node <name_file>.js
 
 //Consuming Promises
 ////Success and Failure Callback Functions
