@@ -54,4 +54,5 @@ const handleFailure = (rejectionReason) => {
  
 checkInventory(order).then(handleSuccess, handleFailure);
 
-//
+//Using catch() with Promises
+
