@@ -38,4 +38,6 @@ console.log("This is the last line of code in app.js.");
 
 ////node <name_file>.js
 
-//
+//Consuming Promises
+////Success and Failure Callback Functions
+
