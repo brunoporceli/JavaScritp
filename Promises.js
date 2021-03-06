@@ -86,7 +86,7 @@ checkInventory(order)
  return processPayment(resolvedValueArray);
 })
 .then((resolvedValueArray) => {
-  return processPayment(resolvedValueArray);
+  return shipOrder(resolvedValueArray);
 })
 .then((successMessage) => {
   console.log(successMessage);
